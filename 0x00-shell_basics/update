@@ -1,10 +1,8 @@
 #!/bin/bash
 # Ask for commit message
-
-echo "enter message"
-
-read -p 'message: ' messvar
+# message="USER INPUT"
+read -p "enter message:	" message
 
 git add .
-git commit -m '$messvar'
+git commit -m '$message'
 git push origin main
