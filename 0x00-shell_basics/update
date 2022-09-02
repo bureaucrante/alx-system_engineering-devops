@@ -1,6 +1,6 @@
 #!/bin/bash
 # Ask for commit message
-# message="USER INPUT"
+# $message="USER INPUT"
 read -p "enter message:	" message
 
 git add .
