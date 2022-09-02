@@ -1,5 +1,5 @@
 #!/bin/bash
-# Ask for commit message
+echo -n "enter message:"
 # $message="USER INPUT"
 read -p "enter message:	" message
 
