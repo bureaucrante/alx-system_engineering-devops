@@ -1,2 +1,2 @@
 #!/bin/bash
-tr 'A,c' 'c,E'
+tr 'A' c| tr 'c' E
