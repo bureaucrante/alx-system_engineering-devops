@@ -1,2 +1,2 @@
 #!/bin/bash
-find .	-name "*.gif" -type f -printf '%fn'
+find .	-name "*.gif" -type f -printf '%f/n'
